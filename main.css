@@ -1,0 +1,35 @@
+#textBody {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+
+}
+
+#backgroundBody {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background: url(jamie-davies-r1LSO6lP_vU-unsplash.jpg);
+    background-size: cover;
+    background-color: #464646;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: nope;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: #120c07;
+    color: #ffce54;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
