@@ -46,11 +46,10 @@
     width: 100%;
     font-size: 20px;
     margin: auto;
-    padding: 40px 0;
+    padding: 30px 0;
     align-items: center;
     justify-content:space-between;
 }
-
 
 .navbar ul li{
     list-style-type: none;
@@ -60,9 +59,9 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: #ffce54;
+    color: #f8c647;
 }
 .navbar ul li a:hover{
-    box-shadow: 0 2px #ffce54;
+    box-shadow: 0 2px #fdca49;
     transition: 2s;
 }
