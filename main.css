@@ -70,8 +70,8 @@
 }
 
 #portfolio {
-    background-color: #a0430e98;
-    height: 100px;
+    background-color: #fff;
+    height: 300px;
     padding-top: 10rem;
     padding-bottom: 10rem;
     text-align: center;
@@ -79,7 +79,7 @@
 }
 
 #portfolio h2 {
-    font-size: 4.8rem;
+    font-size: 4.9rem;
 }
 
 /* * {
@@ -226,10 +226,8 @@ header {
 .col {
     float: left;
     width: 31.5%;
-    height: 300px;
     padding: 10px;
 }
 
 .portfolio-item {
-    height: 300px;
 }
