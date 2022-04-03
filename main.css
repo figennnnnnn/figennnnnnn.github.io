@@ -8,8 +8,8 @@
     font-family: Lucida El Yazısı, Verdana, Arial, Tahoma, Serif;
 }
 
-#backgroundBody {
-    background-repeat: no-repeat;
+.backgroundBody {
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
     background: url(jamie-davies-r1LSO6lP_vU-unsplash.jpg);
@@ -121,11 +121,13 @@ ul {
 
 /* navbar */
 nav {
+    width: 100%;
     font-family: Montserrat, sans-serif;
     background-color: #0c0c0c;
     color: #fff;
     padding-top: 1rem;
-    padding-bottom: 1rem
+    padding-bottom: 1rem;
+    position: fixed;
 }
 
 #logo-box {
@@ -159,4 +161,13 @@ nav {
 
 #nav-links .nav-link:hover {
     color: #f8c647;
+}
+
+/* Header */
+
+header {
+    background-color: #fff;
+    padding-top: calc(112px+6rem);
+    height: 8000px;
+
 }
