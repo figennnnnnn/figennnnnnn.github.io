@@ -5,7 +5,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
-
+    font-family: Lucida El Yazısı, Verdana, Arial, Tahoma, Serif;
 }
 
 #backgroundBody {
@@ -32,4 +32,41 @@
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    padding: 40px 0;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffce54;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 2px #ffce54;
+    transition: 2s;
 }
