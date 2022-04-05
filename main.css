@@ -71,9 +71,7 @@
 
 #portfolio {
     background-color: #fff;
-    height: 300px;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    height: 1000px;
     text-align: center;
     
 }
@@ -118,6 +116,7 @@ a{
 ul {
     list-style-type: none;
 }
+
 
 .img-fluid {
     max-width: 99%;
@@ -180,7 +179,7 @@ nav {
     display: block;
     padding: 1rem;
     letter-spacing: .1rem;
-    transition: color;
+    transition: color .3s;
 }
 
 #nav-links .nav-link:hover {
@@ -217,15 +216,39 @@ header {
     overflow: visible;
 }
 
+.star-dark2 {
+    position: relative;
+    top: 10px;
+    border: none;
+    border-top: .4rem solid rgb(0, 0, 0);
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+}
 .star-light::after, .star-dark::after {
     content: "\f005";
     font-family: "Font Awesome 5 Free"; 
     color: #000000; 
     font-weight: 900;
     font-size: 3.2rem;
+    text-align: center;
     position: relative;
     padding: 0 10px;
     top: -12px;
+    background-color: #fff;
+}
+
+.star-dark2::after {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free"; 
+    color: #000000; 
+    font-weight: 900;
+    font-size: 3.2rem;
+    text-align: center;
+    position: relative;
+    padding: 0 10px;
+    top: -12px;
+    right: -100px;
     background-color: #fff;
 }
 
@@ -265,4 +288,52 @@ header {
 
 .portfolio-item:hover .img-overlay {
     opacity: 0.5;
+}
+
+/* about */
+#about {
+    position: relative;
+    top: 300px;
+    background-color: #fff;
+    color:rgb(0, 0, 0);
+    height: 600px;
+    
+
+}
+
+#about h2 {
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+#about-text {
+	text-align: left;
+    height: 100px;
+    
+}
+
+#about-text .left {
+	float: left;
+	width: 30%;
+	padding-right: 0rem;
+	padding-left: 20rem;
+    
+    
+}
+
+#about-text .right {
+	float: right;
+	width: 30%;
+	padding-left: 0rem;
+	padding-right: 20rem;
+    
+}
+
+
+#about-text .text{
+	font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
 }
