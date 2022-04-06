@@ -117,6 +117,49 @@ ul {
     list-style-type: none;
 }
 
+.btn {
+    position: relative;
+    right: -470px;
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 2.4rem 1.6rem;
+    font-weight: 300;
+    display: inline-block;
+    border: 2px solid transparent;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: all .5s;
+    text-align: left;
+}
+
+.btn-outline {
+    color: rgb(1, 1, 1);
+    border-color: gainsboro;
+    background-color: transparent;
+    text-align: left;
+}
+
+.btn-outline:hover {
+    color: #212529;
+    background-color: rgb(184, 182, 190);
+    padding: 2.2rem 1.6rem;
+}
+
+.btn-primary {
+    position: relative;
+    right: 10px;
+    background-color: #f8c647;
+    border-color: #f8c647;
+    padding: 1.2rem 1.6rem;
+
+}
+
+.btn-primary:hover {
+    color: #f8c647;
+    background-color: rgb(184, 182, 190);
+    padding: 1.2rem 1.6rem;
+
+}
 
 .img-fluid {
     max-width: 99%;
@@ -276,7 +319,7 @@ header {
     opacity: 0;
     transition: opacity .5s ease;
 }
-
+ 
 .img-overlay .icon {
     color: #fff;
     font-size: 2rem;
@@ -336,4 +379,38 @@ header {
     font-size: 2rem;
     font-weight: 500;
     line-height: 1;
+}
+
+/* contact */
+#contact {
+    text-align: left;
+}
+#contact h2 {
+    font-size: 4.8rem;
+    color:rgb(0, 0, 0);
+    padding-top: 300px;
+    text-align: center;
+}
+
+#contact-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-group {
+    border-bottom: 1px solid #f8c647;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.form-group input,.form-group textarea {
+    border: none;
+    width: 100%;
+    display: inline-block;
+    font-size: 2.4rem;
+}
+
+.form-group input:focus {
+    outline: 0;
 }
