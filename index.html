@@ -20,8 +20,12 @@
                         
                     </a>
                 </div>
-                <div id="nav-links">
+                <div id="nav-links" class="responsive">
                     <ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase nav-icon">
+                            <i class="fas fa-bars"></i>
+                        </li>
                         <li class="nav-item">
                             <a href="#portfolio" class="nav-link text-uppercase">Portfolio</a>
                         </li>
@@ -66,6 +70,48 @@
                     <div class="col">
                         <div class="portfolio-item">
                             <a href="#">
+                                <img class="img-fluid" src="arcmap.png" alt="">
+                                <div class="img-overlay">
+                                    <div class="icon">
+                                        <i>ARCMAP</i>
+                                       
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="portfolio-item">
+                            <a href="#">
+                                <img class="img-fluid" src="netcad.png" alt="">
+                                <div class="img-overlay">
+                                    <div class="icon">
+                                        <i>NETCAD</i>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="portfolio-item">
+                            <a href="#">
+                                <img class="img-fluid" src="autocad.png" alt="">
+                                <div class="img-overlay">
+                                    <div class="icon">
+                                        <i>AUTOCAD</i>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="portfolio-item">
+                            <a href="#">
                                 <img class="img-fluid" src="inventor.png" alt="">
                                 <div class="img-overlay">
                                     <div class="icon">
@@ -81,7 +127,7 @@
                     <div class="col">
                         <div class="portfolio-item">
                             <a href="#">
-                                <img class="img-fluid" src="solidworks (1).png" alt="">
+                                <img class="img-fluid" src="solidworks.png" alt="">
                                 <div class="img-overlay">
                                     <div class="icon">
                                         <i>SOLIDWORKS</i>
@@ -92,6 +138,8 @@
                             </a>
                         </div>
                     </div>
+
+                    
                     
                     <div class="col">
                         <div class="portfolio-item">
@@ -107,47 +155,11 @@
                         </div>
                     </div>
                     
-                    <div class="col">
-                        <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-fluid" src="netcadjpg.jpg" alt="">
-                                <div class="img-overlay">
-                                    <div class="icon">
-                                        <i>NETCAD</i>
-                                        
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    
 
-                    <div class="col">
-                        <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-fluid" src="AutoCAD.jpg" alt="">
-                                <div class="img-overlay">
-                                    <div class="icon">
-                                        <i>AUTOCAD</i>
-                                        
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    
 
-                    <div class="col">
-                        <div class="portfolio-item">
-                            <a href="#">
-                                <img class="img-fluid" src="arcgis.png" alt="">
-                                <div class="img-overlay">
-                                    <div class="icon">
-                                        <i>ARCGIS</i>
-                                       
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    
                    
                 </div>
                 
@@ -173,10 +185,10 @@
                 </div>		
                 
             </div>
-            <button class="btn btn-outline">
+            <!-- <button class="btn btn-outline">
                 <i class="fas fa-download"></i>
                 Download Now!
-            </button>
+            </button> -->
         </section>
 
         <section id="contact">
@@ -207,6 +219,15 @@
                 </form>
             </div>
         </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+
+            $('.nav-icon').click(function(){
+                $('#nav-links').toggleClass("responsive");
+                return false;
+            });
+            
+        </script>
     </body>
 </html>
 
