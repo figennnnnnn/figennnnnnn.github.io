@@ -29,7 +29,7 @@
     width: 4rem;
     text-align: center;
     text-decoration: nope;
-    margin: 5px 2px;
+    margin: 5px 1px;
     border-radius: 50%;
     background: #120c07;
     color: #ffce54;
@@ -166,6 +166,7 @@ ul {
 .img-fluid {
     max-width: 99%;
     height: auto;
+
 }
 
 .clearfix::after {
@@ -421,6 +422,8 @@ header {
 
 .portfolio-item:hover .img-overlay {
     opacity: 0.5;
+    /* transform: scale(5);
+    z-index: 2; */
 }
 
 /* about */
