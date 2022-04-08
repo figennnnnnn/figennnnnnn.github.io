@@ -193,10 +193,10 @@ ul {
 
 @media (min-width: 576px) {
     .container {
-        max-width: 10px;
+        max-width: 540px;
     }
     html {
-        font-size: 5px;
+        font-size: 7px;
     }
 }
 
@@ -432,7 +432,7 @@ header {
     top: 300px;
     background-color: #fff;
     color:rgb(0, 0, 0);
-    height: 600px;
+    height: 1000px;
     
 
 }
