@@ -193,7 +193,9 @@ ul {
     html {
         font-size: 7px;
     }
-    
+    #textBody p {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -230,6 +232,7 @@ ul {
     .col {
         width: 14%;
     }
+    
 }
 
 .text-uppercase {
