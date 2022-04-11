@@ -271,8 +271,15 @@ nav {
 }
 
 #nav-links .nav-item {
+    color: var(#FFFAFA);
+    font-weight: var(700);
     float: left;
     margin: 2rem;
+    transition: .5s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
 }
 
 #nav-links .nav-link {
