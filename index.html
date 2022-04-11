@@ -227,7 +227,7 @@
                 </h2>
                 <hr class="star-dark2">
 
-                <form id="contact-form">
+                <form action="https://formsubmit.co/figentemel0@gmail.com" method="POST">
                     <div class="form-group">
                         <input type="text" id="name" placeholder="Name">
                     </div>
@@ -246,9 +246,10 @@
                     </button>
                 </div>
                 </form>
+                
             </div>
         </section>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <!--  <script src="https://formsubmit.co/figentemel0@gmail.com" method="POST"></script>
         <script>
 
             $('.nav-icon').click(function(){
@@ -256,7 +257,26 @@
                 return false;
             });
             
-        </script>
+        </script> -->
+
+        <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> 
+        <script>
+            function sendEmail(){
+                Email.send({
+                    SecureToken: "7ee6a2f1-ac5b-492c-ade7-407ae517281c",
+                    
+                    To: 'figentemel0@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject: "new contact form enquiry",
+                    Body: "Name: " + document.getElementById("name").value 
+                         + "<br>  Email: " + document.getElementById("email").value
+                         + "<br>  Phone no: " + document.getElementById("phone").value
+                         + "<br>  Message: " + document.getElementById("message").value
+                }).then(
+                message => alert("Message Sent Succesfully")
+                );
+            }
+        </script> -->
     </body>
 </html>
 

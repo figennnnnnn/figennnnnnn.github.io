@@ -6,10 +6,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
-    font-family: Brush Script MT, Noto, Verdana, Arial, Serif;
+    font-family: /* Times New Roman, */ Impact, Brush Script MT, Franklin Gothic Medium, Noto, Verdana, Arial, Serif;
 }
 
 #textBody p {
+    line-height: 1;
+}
+#textBody h1 {
     line-height: 1;
 }
 
@@ -334,7 +337,7 @@ header {
 
 .star-light {
     position: relative;
-    top: 450px;
+    top: 400px;
     border: none;
     border-top: .4rem solid rgb(0, 0, 0);
     max-width: 25rem;
@@ -432,7 +435,7 @@ header {
     top: 300px;
     background-color: #fff;
     color:rgb(0, 0, 0);
-    height: 1000px;
+    height: 800px;
     
 
 }
