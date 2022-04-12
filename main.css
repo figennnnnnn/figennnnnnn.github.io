@@ -524,9 +524,11 @@ header {
 }
 
 footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: #3e0505;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-position: center center;
+    background: url(backgraund.jpg);
+    background-size: cover;
     color: #fff;
     text-align: center;
 }
