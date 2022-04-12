@@ -179,11 +179,9 @@ ul {
 }
 
 .col {
-    position: relative;
-    right: -100px;
     float: left;
-    width: 50%;
-    padding: 1rem;
+    width: 100%;
+    padding: 10px;
 }
 
 .container {
@@ -211,7 +209,7 @@ ul {
         font-size: 8px;
     }
     .col {
-        width: 23%;
+        width: 30%;
     }
 }
 
@@ -275,11 +273,6 @@ nav {
     font-weight: var(700);
     float: left;
     margin: 2rem;
-    transition: .5s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
 }
 
 #nav-links .nav-link {
@@ -324,7 +317,7 @@ nav {
     }
 
     #nav-links .nav-icon {
-        display: inline-block;
+        display: block;
         position: absolute;
         top: 5px;
         right: 20px;
@@ -497,6 +490,7 @@ header {
 #contact-form {
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 10rem;
 }
 
 .form-group {
@@ -515,4 +509,27 @@ header {
 
 .form-group input:focus {
     outline: 0;
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #3e0505;
+    color: #fff;
+    text-align: center;
+}
+
+footer .col {
+    float: center;
+    width: 27%;
+    padding: 10px;
+}
+
+footer h4 {
+    font-size: 2.4rem;
+}
+
+footer p {
+    font-size: 2rem;
+    margin-top: 1rem;
 }
