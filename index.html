@@ -442,39 +442,39 @@
                         <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
                         <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
                         <div class="row">
-                            <div class="contact-form padd-15" action="https://formspree.io/f/mwkyrlqe" method="POST">
+                            <form class="contact-form padd-15" action="https://formspree.io/f/mwkyrlqe" method="POST">
                                 <div class="row">
                                     <div class="form-item col-6 padd-15">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Name" required>
+                                            <input type="text" class="form-control" placeholder="Name" name="text" required>
                                         </div>
                                     </div>
                                     <div class="form-item col-6 padd-15">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email" required>
+                                            <input type="email" class="form-control" placeholder="Subject" name="text" required>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-item col-12 padd-15">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Subject" required>
+                                            <input type="text" class="form-control" placeholder="Email" name="text" required>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-item col-12 padd-15">
                                         <div class="form-group">
-                                            <textarea name="" class="form-control" id="" placeholder="Message" required></textarea>
+                                            <textarea name="text" class="form-control" id="" placeholder="Message" required></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-item col-12 padd-15">
-                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                        <button type="submit" class="btn">Send Message</button>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </section>
@@ -482,60 +482,6 @@
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
         <script src="script.js"></script>
-        <!-- <section id="contact">
-            <div class="container">
-                <h2 class="text-uppercase">
-                    contact me
-                </h2>
-                <hr class="star-dark2">
-
-                <form id="contact-form" action="https://formspree.io/f/mwkyrlqe" method="POST">
-                    <div class="form-group">
-                        <input type="text" id="name" placeholder="Name" name="text" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="email" placeholder="Email Address" name="test" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="phone" placeholder="Phone" name="phone" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" rows="5" placeholder="Message" name="text" required></textarea>
-                    </div>
-                <div>
-                    <button class="btn btn-primary">
-                        Send 
-                    </button>
-                </div>
-                </form>
-            </div>
-        </section>
-
-        <footer>
-            <div class="container clearfix">
-                <div class="col">
-                    <h4 class="text-uppercase">FİGEN TEMEL</h4>
-                </div>
-                <div class="col">
-                    <h4 class="text-uppercase">location</h4>
-                    <p class="text-uppercase">bursa/yıldırım</p>
-                </div>
-                <div class="col">
-                    <h4 class="text">figentemel0@gmail.com</h4>
-                </div>
-            </div>
-        </footer>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script>
-
-            $('.nav-icon').click(function(){
-                $('#nav-links').toggleClass("responsive");
-                return false;
-            });
-            
-        </script> -->
-
     </body>
 </html>
 
