@@ -12,6 +12,104 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <title>Figen Temel'in Kişisel Web Sitesi</title>
         <link rel="icon" type="image/x-icon" href="F.ico">
+        <style>
+            .slider {
+                position: relative;
+                width: 300px;
+                height: 300px;
+                border: 1px solid #ccc;
+                margin: auto;
+                overflow: hidden;
+            }
+            .slider-content {
+                position: absolute;
+                width: 600%;
+                left: 0;
+
+                animation: slide 20s infinite;
+                
+            }
+            .slider-content2 {
+                position: absolute;
+                width: 600%;
+                left: 0;
+
+                animation: slide2 15s infinite;
+                
+            }
+            .slider-content:hover {
+                animation-play-state: paused;
+            }
+            .slider-content2:hover {
+                animation-play-state: paused;
+            }
+            .slider-item {
+                width: 20%;
+                float: left;
+            }
+            @keyframes slide {
+                0% {
+                    transform: translateX(0px);
+                }
+                10% {
+                    transform: translateX(-390px);
+                }
+                20% {
+                    transform: translateX(-390px);
+                }
+                30% {
+                    transform: translateX(-750px);
+                }
+                40% {
+                    transform: translateX(-750px);
+                }
+                50% {
+                    transform: translateX(-1100px);
+                }
+                60% {
+                    transform: translateX(-1100px);
+                }
+                70% {
+                    transform: translateX(-1461px);
+                }
+                80% {
+                    transform: translateX(-1461px);
+                }
+                90% {
+                    transform: translateX(0px);
+                }
+            }
+            @keyframes slide2 {
+                0% {
+                    transform: translateX(0px);
+                }
+                10% {
+                    transform: translateX(0px);
+                }
+                20% {
+                    transform: translateX(-390px);
+                }
+                30% {
+                    transform: translateX(-390px);
+                }
+                40% {
+                    transform: translateX(-390px);
+                }
+                50% {
+                    transform: translateX(-750px);
+                }
+                60% {
+                    transform: translateX(-750px);
+                }
+                70% {
+                    transform: translateX(-750px);
+                }
+                90% {
+                    transform: translateX(0px);
+                }
+                
+            }
+        </style>
     </head>
 
     <body>
@@ -97,7 +195,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="buttons padd-15">
-                                                <a href="https://drive.google.com/file/d/1pmjCc5_F5VbPZ9PukC4LHK3ZTF9iSOo7/view?usp=drivesdk" download class="btn" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://drive.google.com/file/d/1GjcvugKxLyeIhG1gNUYTUzT23g9ODueq/view?usp=share_link" download class="btn" target="_blank" rel="noopener noreferrer">
                                                     Download CV
                                                 </a>
                                                 
@@ -175,6 +273,13 @@
                                                 <div class="progress">
                                                     <div class="progress-in" style="width: 40%;"></div>
                                                     <div class="skill-percent">40%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>WORDPRESS</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 80%;"></div>
+                                                    <div class="skill-percent">80%</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -274,63 +379,158 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="service-img">
-                                        <img src="python.png" alt=""></i>
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="inventor-3.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="inventor-2.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="inventor-1.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <h4>PYTHON</h4>
-                                    <a href="https://github.com/figennnnnnn/Python" class="btn" target="_blank" rel="noopener noreferrer">Click here to access <br> my works on the program.</a>
+                                    <img src="inventor.png" alt="">
+                                    <h4>INVENTOR</h4>
+                                    <a href="https://github.com/figennnnnnn/Inventor" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                       
                                 </div>
                             </div>
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="service-img">
-                                        <img src="autocad.png" alt=""></i>
+                                        <div class="slider">
+                                            <div class="slider-content">
+                                                <div class="slider-item">
+                                                    <img src="autocad-1.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-2.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-3.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-4.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-5.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <img src="autocad.png" alt="">
                                     <h4>AUTOCAD</h4>
-                                    <a href="https://github.com/figennnnnnn/AutoCAD" class="btn" target="_blank" rel="noopener noreferrer">Click here to access <br> my works on the program.</a>
+                                    <a href="https://github.com/figennnnnnn/AutoCAD" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                     
                                 </div>
                             </div>
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="service-img">
-                                        <img src="solidworks.png" alt=""></i>
+                                        <div class="slider">
+                                            <div class="slider-content">
+                                                <div class="slider-item">
+                                                    <img src="mouse.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="sheetmetal.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="trowel.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="object11.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="object12.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <img src="solidworks.png" alt="">
                                     <h4>SOLIDWORKS</h4>
-                                    <a href="https://github.com/figennnnnnn/Solidworks" class="btn" target="_blank" rel="noopener noreferrer">Click here to access <br> my works on the program.</a>
+                                    <a href="https://github.com/figennnnnnn/Solidworks" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                      
                                 </div>
                             </div>
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="service-img">
-                                        <img src="netcad.png" alt=""></i>
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="netcad-1.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="netcad-2.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="netcad-3.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <img src="netcad.png" alt="">
                                     <h4>NETCAD</h4>
                                      
-                                     <a href="https://github.com/figennnnnnn/Netcad" class="btn" target="_blank" rel="noopener noreferrer">Click here to access <br> my works on the program.</a>
+                                     <a href="https://github.com/figennnnnnn/Netcad" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                     
                                 </div>
                             </div>
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="service-img">
-                                        <img src="inventor.png" alt=""></i>
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="svg.bmp" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="qgis-1.bmp" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="qgis-2.bmp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <h4>INVENTOR</h4>
+                                    <img src="qgis.png" alt="">
+                                    <h4>QGIS AND INTERACTIVE MAP</h4>
                                      
-                                     <a href="https://github.com/figennnnnnn/Inventor" class="btn" target="_blank" rel="noopener noreferrer"> Click here to access <br> my works on the program.</a>
+                                     <a href="https://codepen.io/figennnnnnn/pen/ExpNYJr" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                     
                                 </div>
                             </div>
+                            
+                           
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="service-img">
-                                        <img src="qgis.png" alt=""></i>
-                                    </div>
-                                    <h4>QGIS</h4>
-                                    <a href="https://github.com/figennnnnnn/QGIS" class="btn" target="_blank" rel="noopener noreferrer">Click here to access <br> my works on the program.</a>
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="1.bmp" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="3.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="2.jpg" alt="">
+                                                </div>
+                                                
+                                            </div>
+                                        
+                                        </div>
                                     
+                                    </div>
+                                    <img src="python.png" alt="">
+                                    <h4>PYTHON</h4>
+                                    <a href="https://github.com/figennnnnnn/Python" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                      
                                 </div>
                             </div>
 
