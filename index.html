@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="main.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
@@ -126,8 +128,8 @@
                 <ul class="nav">
                     <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
                     <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-                    <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
-                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#services"><i class="fa fa-list"></i> Portfolio</a></li>
+                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Certificates</a></li>
                     <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
                 </ul>
             </div>
@@ -372,9 +374,15 @@
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
-                                <h2>Services</h2>
+                                <h2>Portfolio</h2>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="service-heading padd-15">
+                                <h2>Programs :</h2>
+                            </div>
+                        </div>
+                        
                         <div class="row">
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
@@ -535,18 +543,58 @@
                             </div>
 
                         </div>
+                        <div class="row">
+                            <div class="portfolio-heading padd-15">
+                                <h2>Projects :</h2>
+                            </div>
+                        </div>
+                        <style>
+                            .mySlides {display:none;}
+                            
+                        </style>
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner" style="width: 600px; margin-top: 30px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container" >
+                                            <img class="mySlides" src="ecomsingle-1.bmp">
+                                            <img class="mySlides" src="ecomsingle-2.bmp">
+                                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <h4>E-commerce site and admin panel with Laravel</h4>
+                                    <a href="https://github.com/webbaggage/webbaggage.github.io" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
+                            
+                            function plusDivs(n) {
+                              showDivs(slideIndex += n);
+                            }
+                            
+                            function showDivs(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                        </script>
                     </div>
                 </section>
                 <section class="portfolio section" id="portfolio">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
-                                <h2>Portfolio</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="portfolio-heading padd-15">
-                                <h2>Certificates :</h2>
+                                <h2>Certificates</h2>
                             </div>
                         </div>
                         <div class="row">

@@ -537,6 +537,12 @@ h3.my-profession
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
+.service .service-item-projects
+{
+    margin-bottom: 50px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 .service .service-item .service-item-inner
 {
     background-color: var(--bg-black-100);
@@ -582,6 +588,12 @@ h3.my-profession
 {
     font-size: 35px;
     color: #f21313;
+}
+.service .service-heading h2
+{
+    color: var(--text-black-900);
+    font-weight: 500;
+    margin-bottom: 50px;
 }
 .service .service-item .service-item-inner h4
 {
