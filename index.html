@@ -558,8 +558,9 @@
                                 <div class="service-item-inner" style="flex: 0 0 50%; width: 550px; margin-top: 30px;">
                                     <div class="service-img">
                                         <div class="w3-content w3-display-container 1" name="slide1" >
-                                            <img class="mySlides" src="ecomsingle-1.bmp" style="height: 300px;">
-                                            <img class="mySlides" src="ecomsingle-2.bmp" style="height: 300px;">
+                                            <img class="mySlides" src="book_store-1.bmp" style="height: 300px;">
+                                            <img class="mySlides" src="book_store-2.bmp" style="height: 300px;">
+                                            <img class="mySlides" src="book_store-3.bmp" style="height: 300px;">
                                             <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                                             <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs(1)">&#10095;</button>
                                         </div>
@@ -568,22 +569,20 @@
                                     <a href="https://webbaggage.online/public/" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                 </div>
                             </div>
-                        
                             <div class="service-item padd-15">
                                 <div class="service-item-inner" style="flex: 0 0 50%; margin-left: 190px; width: 550px; margin-top: 30px;">
                                     <div class="service-img">
-                                        <div class="w3-content w3-display-container 2" name="slide2">
-                                            <img class="mySlides2" src="banner.jpg" style="height: 300px;">
-                                            <img class="mySlides2" src="banner-2.jpg" style="height: 300px;">
-                                            <img class="mySlides2" src="banner-3.jpg" style="height: 300px;">
+                                        <div class="w3-content w3-display-container 2" name="slide2" >
+                                            <img class="mySlides2" src="ecomsingle-1.bmp" style="height: 300px;">
+                                            <img class="mySlides2" src="ecomsingle-2.bmp" style="height: 300px;">
                                             <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
                                             <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
                                         </div>
                                     </div>
-                                    <h4>Website banner with PHP</h4>
-                                    <a href="https://webbaggage.online/extraegitim/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                    <h4>E-commerce site and admin panel with Laravel</h4>
+                                    <a href="https://webbaggage.online/public/" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                 </div>
-                            </div>                            
+                            </div>                         
                         </div>
 
                         <div class="row">
@@ -622,15 +621,35 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner" style="flex: 0 0 50%; width: 550px; margin-top: 30px;">
                                     <div class="service-img">
-                                        <div class="w3-content w3-display-container 1" name="slide3" >
-                                            <img class="mySlides5" src="tranlate.bmp" style="height: 300px; align-items: center;">
+                                        <div class="w3-content w3-display-container 2" name="slide5">
+                                            <img class="mySlides5" src="banner.jpg" style="height: 300px;">
+                                            <img class="mySlides5" src="banner-2.jpg" style="height: 300px;">
+                                            <img class="mySlides5" src="banner-3.jpg" style="height: 300px;">
+                                            <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs5(-1)">&#10094;</button>
+                                            <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs5(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <h4>Website banner with PHP</h4>
+                                    <a href="https://webbaggage.online/extraegitim/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                </div>
+                            </div>  
+
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner" style="flex: 0 0 50%; margin-left: 190px; width: 550px; margin-top: 30px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide6" >
+                                            <img class="mySlides6" src="tranlate.bmp" style="height: 300px; align-items: center;">
                                         </div>
                                     </div>
                                     <h4>Google translate API in PHP</h4>
                                     <a href="https://webbaggage.online/translator/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
                                 </div>
-                            </div>                           
+                            </div>  
+                            
+                             
+                            
                         </div>
+
                         
                         <script>
                             var slideIndex = 1;
@@ -650,8 +669,7 @@
                               }
                               x[slideIndex-1].style.display = "block";  
                             }
-                        </script>
-                        <script>
+                        
                             var slideIndex = 1;
                             showDivs2(slideIndex);
                             
@@ -669,8 +687,7 @@
                               }
                               x[slideIndex-1].style.display = "block";  
                             }
-                        </script>
-                        <script>
+                       
                             var slideIndex = 1;
                             showDivs3(slideIndex);
                             
@@ -688,8 +705,7 @@
                               }
                               x[slideIndex-1].style.display = "block";  
                             }
-                        </script>
-                        <script>
+                        
                             var slideIndex = 1;
                             showDivs4(slideIndex);
                             
@@ -700,6 +716,24 @@
                             function showDivs4(n) {
                               var i;
                               var x = document.getElementsByClassName("mySlides4");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+
+                            var slideIndex = 1;
+                            showDivs5(slideIndex);
+                            
+                            function plusDivs5(n) {
+                              showDivs5(slideIndex += n);
+                            }
+                            
+                            function showDivs5(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides5");
                               if (n > x.length) {slideIndex = 1}
                               if (n < 1) {slideIndex = x.length}
                               for (i = 0; i < x.length; i++) {
