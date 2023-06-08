@@ -761,6 +761,12 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    .service-item-inner-right
+    {
+        margin-left: -190px;
+    }
+
     .home .home-img::after
     {
         display: none;
@@ -800,6 +806,11 @@ h3.my-profession
         max-width: 70%;
         text-align: left;
         margin-left: 70px;
+    }
+
+    .service-item-inner-right
+    {
+        margin-left: -190px;
     }
     
     .contact .contact-form .col-6,
