@@ -763,7 +763,12 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
-
+    .service .service-item .service-item-inner,
+    .service .service-item .service-item-inner-right
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     
     .service-item-inner-right
     {
@@ -823,11 +828,13 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
-    .service .service-img img
+    .service-item-inner-right img,
+    .service-item-inner img
     {
-        height: 100px;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
+
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
