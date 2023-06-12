@@ -534,8 +534,8 @@ h3.my-profession
 .service .service-item
 {
     margin-bottom: 50px;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 33%;
 }
 .service .service-item-projects
 {
@@ -550,6 +550,8 @@ h3.my-profession
     border-radius: 10px;
     padding: 30px 15px;
     text-align: center;
+    width: 550px;
+    margin-top: 30px;
     transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner:hover
@@ -762,11 +764,17 @@ h3.my-profession
         max-width: 100%;
     }
 
+    
     .service-item-inner-right
     {
         margin-left: -190px;
     }
-
+    .service-item-inner-right img,
+    .service-item-inner img
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     .home .home-img::after
     {
         display: none;
@@ -808,11 +816,18 @@ h3.my-profession
         margin-left: 70px;
     }
 
-    .service-item-inner-right
+
+    .service .service-item .service-item-inner,
+    .service .service-item .service-item-inner-right
     {
-        margin-left: -190px;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
     
+    .service .service-img img
+    {
+        height: 100px;
+    }
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
