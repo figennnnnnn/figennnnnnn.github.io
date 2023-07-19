@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="main.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/cs s?family=Montserrat:400, 700" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="color-1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <title>Figen Temel'in Kişisel Web Sitesi</title>
+        <link rel="icon" type="image/x-icon" href="F.ico">
+        <style>
+            .slider {
+                position: relative;
+                width: 300px;
+                height: 300px;
+                border: 1px solid #ccc;
+                margin: auto;
+                overflow: hidden;
+            }
+            .slider-content {
+                position: absolute;
+                width: 600%;
+                left: 0;
+
+                animation: slide 20s infinite;
+                
+            }
+            .slider-content2 {
+                position: absolute;
+                width: 600%;
+                left: 0;
+
+                animation: slide2 15s infinite;
+                
+            }
+            .slider-content:hover {
+                animation-play-state: paused;
+            }
+            .slider-content2:hover {
+                animation-play-state: paused;
+            }
+            .slider-item {
+                width: 20%;
+                float: left;
+            }
+            @keyframes slide {
+                0% {
+                    transform: translateX(0px);
+                }
+                10% {
+                    transform: translateX(-390px);
+                }
+                20% {
+                    transform: translateX(-390px);
+                }
+                30% {
+                    transform: translateX(-750px);
+                }
+                40% {
+                    transform: translateX(-750px);
+                }
+                50% {
+                    transform: translateX(-1100px);
+                }
+                60% {
+                    transform: translateX(-1100px);
+                }
+                70% {
+                    transform: translateX(-1461px);
+                }
+                80% {
+                    transform: translateX(-1461px);
+                }
+                90% {
+                    transform: translateX(0px);
+                }
+            }
+            @keyframes slide2 {
+                0% {
+                    transform: translateX(0px);
+                }
+                10% {
+                    transform: translateX(0px);
+                }
+                20% {
+                    transform: translateX(-390px);
+                }
+                30% {
+                    transform: translateX(-390px);
+                }
+                40% {
+                    transform: translateX(-390px);
+                }
+                50% {
+                    transform: translateX(-750px);
+                }
+                60% {
+                    transform: translateX(-750px);
+                }
+                70% {
+                    transform: translateX(-750px);
+                }
+                90% {
+                    transform: translateX(0px);
+                }
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main-container">
+            <div class="aside">
+                <div class="logo">
+                    
+                    <a href="#"><span >FİGEN<p class="hand-writing-font.blue-font-color.absolute-font">temel</p></span></a>
+                    
+                </div>
+                <div class="nav-toggler">
+                    <span></span>
+                </div>
+                <ul class="nav">
+                    <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                    <li><a href="#portfolio"><i class="fa fa-list"></i> Portfolio</a></li>
+                    <li><a href="#certificates"><i class="fa fa-briefcase"></i> Certificates</a></li>
+                    <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <section class="home section" id="home">
+                    <div class="container">
+                        <div class="row">
+                            <div class="home-info padd-15">
+                                <h3 class="hello">Hello, my name is <span class="name">Figen Temel</span></h3>
+                                <h3 class="my-profession">I' m a <span class="typing">Biosystem Engineer</span></h3>
+                                <p>I received training in the fields of Agricultural Structures and Irrigation, Agricultural Machinery, Agricultural Energy Systems and Land Consolidation under the name of Biosystem Engineering.</p>
+                                <a href="#contact" class="btn hire-me">Hire Me</a>
+                            </div>
+
+                            <div class="home-img padd-15">
+                                <img src="capture_20220920203404429.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about section" id="about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>About Me</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="about-content padd-15">
+                                <div class="row">
+                                    <div class="about-text padd-15">
+                                        <h3>I'm <span class="typ">F</span></h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="personal-info padd-15">
+                                        <div class="row">
+                                            <div class="info-item padd-15">
+                                                <p>Birthday : <span>09.08.1997</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Age : <span>25</span></p>
+                                            </div>
+                
+                                            <div class="info-item padd-15">
+                                                <p>City : <span>Bursa</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Degree : <span>Licence</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Github : <span>github.com/figennnnnnn</span></p>
+                                            </div>
+                                            
+                                            <div class="info-item padd-15">
+                                                <p>Website : <span>figennnnnnn.github.io/</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Email : <span>figentemel0@gmail.com</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Freelance : <span>Available</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="buttons padd-15">
+                                                <a href="https://drive.google.com/file/d/1GjcvugKxLyeIhG1gNUYTUzT23g9ODueq/view?usp=share_link" download class="btn" target="_blank" rel="noopener noreferrer">
+                                                    Download CV
+                                                </a>
+                                                
+                                                <a href="#contact" class="btn hire-me">Hire Me</a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skills padd-15">
+                                        <div class="row">
+                                            <div class="skill-item padd-15">
+                                                <h5>PYTHON</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 66%;"></div>
+                                                    <div class="skill-percent">66%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>AUTOCAD</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 55%;"></div>
+                                                    <div class="skill-percent">55%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>INVENTOR</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 46%;"></div>
+                                                    <div class="skill-percent">46%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>SOLIDWORKS</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 70%;"></div>
+                                                    <div class="skill-percent">70%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>NETCAD</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 80%;"></div>
+                                                    <div class="skill-percent">80%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>ARCMAP</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 66%;"></div>
+                                                    <div class="skill-percent">66%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>QGIS</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 50%;"></div>
+                                                    <div class="skill-percent">50%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>OFFICE</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 85%;"></div>
+                                                    <div class="skill-percent">85%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>HTML</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 33%;"></div>
+                                                    <div class="skill-percent">33%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>CSS</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 40%;"></div>
+                                                    <div class="skill-percent">40%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>WORDPRESS</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 80%;"></div>
+                                                    <div class="skill-percent">80%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="education padd-15">
+                                        <h3 class="title">Education</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2016 -2022
+                                                        </h3>
+                                                        <h4 class="timeline-title">University</h4>
+                                                        <p class="timeline-text">Uludağ University Nilüfer/BURSA</p>
+                                                
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2011 -2016
+                                                        </h3>
+                                                        <h4 class="timeline-title">High School</h4>
+                                                        <p class="timeline-text">Gürsu Borsa İstanbul Anadolu Highschool Gürsu/BURSA</p>
+                                                
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2003 -2011
+                                                        </h3>
+                                                        <h4 class="timeline-title">Primary School</h4>
+                                                        <p class="timeline-text">Emine Sait Uyar Primary School Yıldırım/BURSA</p>
+                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="experience padd-15">
+                                        <h3 class="title">Experience</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 07/2022 -09/2022
+                                                        </h3>
+                                                        <h4 class="timeline-title">Intern</h4>
+                                                        <p class="timeline-text">DSI-General Directorate of State Hydraulic Works 
+                                                                                 Yıldırım/BURSA
+                                                        </p>
+                                                
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 06/2018 -09/2018
+                                                        </h3>
+                                                        <h4 class="timeline-title">Sales Assistant</h4>
+                                                        <p class="timeline-text">Pasta Ege Café 
+                                                                                 Yıldırım/BURSA</p>
+                                                
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 06/2016 -09/2016
+                                                        </h3>
+                                                        <h4 class="timeline-title">Sales Assistant</h4>
+                                                        <p class="timeline-text">Arena Wearing
+                                                                                 Yıldırım/BURSA
+                                                        </p>
+                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service section" id="portfolio">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Portfolio</h2>
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                            <div class="service-heading padd-15">
+                                <h2>Programs :</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="inventor-3.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="inventor-2.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="inventor-1.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="inventor.png" alt="">
+                                    <h4>INVENTOR</h4>
+                                    <a href="https://github.com/figennnnnnn/Inventor" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                      
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="slider">
+                                            <div class="slider-content">
+                                                <div class="slider-item">
+                                                    <img src="autocad-1.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-2.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-3.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-4.png" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="autocad-5.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="autocad.png" alt="">
+                                    <h4>AUTOCAD</h4>
+                                    <a href="https://github.com/figennnnnnn/AutoCAD" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="slider">
+                                            <div class="slider-content">
+                                                <div class="slider-item">
+                                                    <img src="mouse.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="sheetmetal.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="trowel.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="object11.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="object12.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="solidworks.png" alt="">
+                                    <h4>SOLIDWORKS</h4>
+                                    <a href="https://github.com/figennnnnnn/Solidworks" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                     
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="netcad-1.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="netcad-2.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="netcad-3.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="netcad.png" alt="">
+                                    <h4>NETCAD</h4>
+                                     
+                                     <a href="https://github.com/figennnnnnn/Netcad" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="svg.bmp" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="qgis-1.bmp" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="qgis-2.bmp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="qgis.png" alt="">
+                                    <h4>QGIS AND INTERACTIVE MAP</h4>
+                                     
+                                     <a href="https://codepen.io/figennnnnnn/pen/ExpNYJr" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                    
+                                </div>
+                            </div>
+                            
+                           
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="slider">
+                                            <div class="slider-content2">
+                                                <div class="slider-item">
+                                                    <img src="1.bmp" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="3.jpg" alt="">
+                                                </div>
+                                                <div class="slider-item">
+                                                    <img src="2.jpg" alt="">
+                                                </div>
+                                                
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    </div>
+                                    <img src="python.png" alt="">
+                                    <h4>PYTHON</h4>
+                                    <a href="https://github.com/figennnnnnn/Python" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                      
+                                </div>
+                            </div> -->
+
+                        
+                        <div class="container">
+                        <div class="row">
+                            <div class="portfolio-heading padd-15" id="projects" href="#projects">
+                                <img src="solidworks.png"> 
+                            </div>
+                            <div><h2 style="font-family: 'Segoe UI Black', cursive;
+                                color: var(--text-black-900); margin-top: -2px;">SOLIDWORKS :</h2></div>
+                        </div>
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner" style=" width: 550px; margin-top: 30px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide6" >
+                                            <img class="mySlides6" src="ball valve.gif" style="height: 300px; align-items: center;">
+                                        </div>
+                                    </div>
+                                    <h4>Ball Valve</h4>
+                                </div>
+                            </div>  
+
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner-right">
+                                <div class="service-item-inner" style="margin-left: 190px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide6" >
+                                            <img class="mySlides6" src="mixer engine.gif" style="height: 300px; align-items: center;">
+                                        </div>
+                                    </div>
+                                    <h4>Mixer Engine</h4>
+                                </div>
+                            </div>
+                            </div>  
+                            
+                        </div>
+
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide6" >
+                                            <img class="mySlides6" src="ball bearing.gif" style="height: 300px; align-items: center;">
+                                        </div>
+                                    </div>
+                                    <h4>Ball Bearing</h4>
+                                </div>
+                            </div>  
+
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner-right">
+                                <div class="service-item-inner" style="flex: 0 0 50%; margin-left: 190px; width: 550px; margin-top: 30px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide6" >
+                                            <img class="mySlides6" src="four cylinder engine.gif" style="height: 300px; align-items: center;">
+                                        </div>
+                                    </div>
+                                    <h4>Four Cylinder Engine</h4>
+                                </div>
+                                </div>
+                            </div>  
+                            
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="portfolio-heading padd-15" id="projects" href="#projects">
+                                <img src="png-transparent-web-development-web-design-logo-website-arrow-and-globe-logo-search-engine-optimization-text-trademark.png" style="width: 50px;"> 
+                            </div>
+                            <div><h2 style="font-family: 'Segoe UI Black', cursive;
+                                color: var(--text-black-900); margin-top: -2px;;">WEBSITE :</h2></div>
+                        </div>
+                        
+                        <style>
+                            .mySlides {display:none;}
+                            .mySlides2 {display:none;}
+                            
+                        </style>
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide1" >
+                                            <img class="mySlides" src="book_store-1.bmp" style="height: 300px;">
+                                            <img class="mySlides" src="book_store-2.bmp" style="height: 300px;">
+                                            <img class="mySlides" src="book_store-3.bmp" style="height: 300px;">
+                                            <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                            <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <h4>E-commerce site and admin panel with Laravel</h4>
+                                    <a href="https://webbaggage.online/book_store/public/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner-right">
+
+                                <div class="service-item-inner" style="margin-left: 190px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 2" name="slide2" >
+                                            <img class="mySlides2" src="ecomsingle-1.bmp" style="height: 300px;">
+                                            <img class="mySlides2" src="ecomsingle-2.bmp" style="height: 300px;">
+                                            <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+                                            <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <h4>E-commerce site and admin panel with Laravel</h4>
+                                    <a href="https://webbaggage.online/public/" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                </div>
+                            </div>   
+                            </div>                      
+                        </div>
+
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide3" >
+                                            <img class="mySlides3" src="progress-bar-2.jpg" style="height: 300px; align-items: center;">
+                                            <img class="mySlides3" src="progress-bar-1.jpg" style="height: 300px; align-items: center;">
+                                            <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
+                                            <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs3(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <h4>Progress bar with PHP, AJAX and JQUERY</h4>
+                                    <a href="https://webbaggage.online/progress/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                </div>
+                            </div>
+                        
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner-right">
+                                <div class="service-item-inner" style="margin-left: 190px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 2" name="slide4">
+                                            <img class="mySlides4" src="chat-1.jpg" style="height: 300px;">
+                                            <img class="mySlides4" src="chat-2.jpg" style="height: 300px;">
+                                            <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs4(-1)">&#10094;</button>
+                                            <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs4(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <h4>Chat Application using PHP with MySQL & JavaScript</h4>
+                                    <a href="https://webbaggage.online/chat/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                </div>
+                            </div>    
+                            </div>                        
+                        </div>
+
+                        <div class="row">
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 2" name="slide5">
+                                            <img class="mySlides5" src="banner.jpg" style="height: 300px;">
+                                            <img class="mySlides5" src="banner-2.jpg" style="height: 300px;">
+                                            <img class="mySlides5" src="banner-3.jpg" style="height: 300px;">
+                                            <button class="w3-button w3-light-grey w3-display-left" onclick="plusDivs5(-1)">&#10094;</button>
+                                            <button class="w3-button w3-light-grey w3-display-right" onclick="plusDivs5(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <h4>Website banner with PHP</h4>
+                                    <a href="https://webbaggage.online/extraegitim/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                </div>
+                            </div>  
+
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner-right">
+                                <div class="service-item-inner" style="margin-left: 190px;">
+                                    <div class="service-img">
+                                        <div class="w3-content w3-display-container 1" name="slide6" >
+                                            <img class="mySlides6" src="tranlate.bmp" style="height: 300px; align-items: center;">
+                                        </div>
+                                    </div>
+                                    <h4>Google translate API in PHP</h4>
+                                    <a href="https://webbaggage.online/translator/index.php" class="btn" target="_blank" rel="noopener noreferrer">More Info</a>
+                                </div>
+                            </div>  
+                            </div>
+                        </div>
+                    
+                        
+
+                        
+                        <script>
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
+                            
+                            function plusDivs(n) {
+                              showDivs(slideIndex += n);
+                            }
+                            
+                            function showDivs(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                        
+                            var slideIndex = 1;
+                            showDivs2(slideIndex);
+                            
+                            function plusDivs2(n) {
+                              showDivs2(slideIndex += n);
+                            }
+                            
+                            function showDivs2(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides2");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                       
+                            var slideIndex = 1;
+                            showDivs3(slideIndex);
+                            
+                            function plusDivs3(n) {
+                              showDivs3(slideIndex += n);
+                            }
+                            
+                            function showDivs3(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides3");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                        
+                            var slideIndex = 1;
+                            showDivs4(slideIndex);
+                            
+                            function plusDivs4(n) {
+                              showDivs4(slideIndex += n);
+                            }
+                            
+                            function showDivs4(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides4");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+
+                            var slideIndex = 1;
+                            showDivs5(slideIndex);
+                            
+                            function plusDivs5(n) {
+                              showDivs5(slideIndex += n);
+                            }
+                            
+                            function showDivs5(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides5");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                        </script>
+                        
+                    </div>
+                </section>
+                <section class="portfolio section" id="certificates">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Certificates</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="netcad.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="AB Hibe Fonlarına Yönelik Proje Döngüsü Yönetimi-001.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="Orta Doğu Teknik Üniversitesi Verimlilik Topluluğu Yönetim ve Mühendislik Günleri Etkinliği-001.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="Figen-Temel-Versiyon-Kontrol-ve-Portfolyo-Egitimi-Version-Control-Systems-and-Portfolio-Global-AI-Hub-001.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="Figen-Temel-Python8217a-Giris-Pythona-Giris--Live-Global-AI-Hub-001.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="Figen-Temel-Yapay-Zekaya-Ilk-Adim-Yapay-Zekaya-Ilk-Adim-Global-AI-Hub-001.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="UDEMY ETİK HACKER OLMA KURSU-001.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="1663766199240.jpeg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="processed-af2ad02b-cf70-4dd5-b660-617fdda3e660_DWYaE6O1.jpeg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </section>
+                <section class="contact section" id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                        <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+                        <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                        <div class="row">
+                            
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                                <h4>Location</h4>
+                                <p>Bursa</p>
+                            </div>
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-envelope"></i></div>
+                                <h4>Email</h4>
+                                <p>figentemel0@gmail.com</p>
+                            </div>
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                                <h4>Website</h4>
+                                <p>figennnnnnn.github.io/</p>
+                            </div>
+                        </div>
+                        <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                        <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
+                        <div class="row">
+                            <form class="contact-form padd-15" action="https://formspree.io/f/mwkyrlqe" method="POST">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name" name="text" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Subject" name="text" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email" name="text" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <textarea name="text" class="form-control" id="" placeholder="Message" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <button type="submit" class="btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>  
+        </div>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
